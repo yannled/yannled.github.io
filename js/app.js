@@ -1,6 +1,6 @@
 
 function getUserContributors(username){
-    return fetch(`https://dashboard.heroku.com/collaborateurs/${username}`)
+    return fetch(`https://git-contributors.herokuapp.com/collaborateurs/${username}`)
         .then(res => {
             console.log('1');
             return res.json();
