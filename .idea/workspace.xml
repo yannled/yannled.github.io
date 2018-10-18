@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8887df03-c8b0-49b2-8c0c-6e1704ea30a8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/bower_components/alchemyjs/dist/alchemy.js" beforeDir="false" afterPath="$PROJECT_DIR$/bower_components/alchemyjs/dist/alchemy.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/own.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/own.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data.json" beforeDir="false" afterPath="$PROJECT_DIR$/data.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/app.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -59,7 +56,7 @@
         <counts>
           <entry key="css" value="262" />
           <entry key="html" value="896" />
-          <entry key="js" value="2107" />
+          <entry key="js" value="2115" />
           <entry key="json" value="16" />
         </counts>
       </usages-collector>
@@ -68,7 +65,7 @@
           <entry key="CSS" value="262" />
           <entry key="HTML" value="896" />
           <entry key="JSON" value="16" />
-          <entry key="JavaScript" value="2107" />
+          <entry key="JavaScript" value="2115" />
         </counts>
       </usages-collector>
     </session>
@@ -87,8 +84,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="43" column="33" selection-start-line="43" selection-start-column="33" selection-end-line="43" selection-end-column="33" />
+            <state relative-caret-position="30">
+              <caret line="2" column="47" selection-start-line="2" selection-start-column="47" selection-end-line="2" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -282,12 +279,12 @@
       <workItem from="1539524723961" duration="4557000" />
       <workItem from="1539847364438" duration="271000" />
       <workItem from="1539849027074" duration="6936000" />
-      <workItem from="1539856587937" duration="4630000" />
+      <workItem from="1539856587937" duration="12013000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52344000" />
+    <option name="totallyTimeSpent" value="59727000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="30" width="960" height="1050" extended-state="4" />
@@ -383,8 +380,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="43" column="33" selection-start-line="43" selection-start-column="33" selection-end-line="43" selection-end-column="33" />
+        <state relative-caret-position="30">
+          <caret line="2" column="47" selection-start-line="2" selection-start-column="47" selection-end-line="2" selection-end-column="47" />
         </state>
       </provider>
     </entry>
