@@ -10,8 +10,14 @@ function getUserContributors(username){
 function requestData(name) {
     var loader = document.getElementById("loading");
     loader.classList.replace("hide", "loading");
-    var div = document.createElement("div");
-    div.setAttribute("id","alchemyTextDiv");
+    var div;
+    if(document.getElementById("alchemyTextDiv")){
+        div = document.getElementById("alchemyTextDiv")
+    }
+    else {
+        div = document.createElement("div");
+        div.setAttribute("id","alchemyTextDiv");
+    }
     var element = document.getElementById("alchemy");
     element.appendChild(div);
     var username;
