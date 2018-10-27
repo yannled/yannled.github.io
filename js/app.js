@@ -3,14 +3,14 @@
 function getUserContributors(username, searchType){
     //return fetch(`https://git-contributors.herokuapp.com/collaborateurs/${username}`)
     if(searchType === 'quick'){
-        return fetch(`https://git-contributors.herokuapp.com/collaborateurs/quick/${username}`)
+        return fetch(`http://localhost:3200/collaborateurs/quick/${username}`)
             .then(res => {
                 console.log('1');
                 return res.json();
             });
     }
     else{
-        return fetch(`https://git-contributors.herokuapp.com/collaborateurs/${username}`)
+        return fetch(`http://localhost:3200/collaborateurs/${username}`)
             .then(res => {
                 console.log('1');
                 return res.json();
@@ -105,5 +105,13 @@ function bottomFunction() {
     window.scrollTo(0,document.body.scrollHeight);
 }
 
+function showErrors() {
+    var x = document.getElementById("errors");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+}
 
 
